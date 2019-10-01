@@ -418,6 +418,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/bengal/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SettingsGoogle \
+    SystemUIGoogle
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
