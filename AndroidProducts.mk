@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_topaz.mk
+    $(LOCAL_DIR)/derp_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_topaz-user \
-    evolution_topaz-userdebug \
-    evolution_topaz-eng
+    derp_topaz-user \
+    derp_topaz-userdebug \
+    derp_topaz-eng
